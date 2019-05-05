@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "957888804083",
+    "firebase_url": "https://mygoldapp-72ae7.firebaseio.com",
+    "project_id": "mygoldapp-72ae7",
+    "storage_bucket": "mygoldapp-72ae7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:957888804083:android:27bbe0a3d5f7b5bc",
+        "android_client_info": {
+          "package_name": "e.myhmanohar.mygoldapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "957888804083-3i2sl767nv7h98c5b21s2r080a5tu61g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVdSq1WOobXgS7n8E7hUL6AWACAlFZ3BE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "957888804083-3i2sl767nv7h98c5b21s2r080a5tu61g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

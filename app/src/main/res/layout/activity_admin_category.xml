@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminCategoryActivity"
+    android:background="@android:color/white">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/slogan_category"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="10dp"
+    android:text="Add New Product"
+    android:textStyle="bold"
+    android:textSize="26sp"
+    android:textAlignment="center"
+    android:textColor="@color/colorPrimaryDark"
+    />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_below="@+id/slogan_category"
+    android:padding="10dp"
+    android:layout_marginTop="10dp"
+    android:id="@+id/first_row_category"
+    android:layout_centerHorizontal="true"
+    >
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/chain"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/chain"/>
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/neckless"
+        android:id="@+id/neckless"
+        android:layout_marginLeft="10dp"
+        />
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ring"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/ring"/>
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/diamound"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/diamound"/>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/first_row_category"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:id="@+id/secound_row_categery"
+
+        >
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/bracelat"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/braclat"/>
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/bangle"
+            android:id="@+id/bangle"
+            android:layout_marginLeft="10dp"
+            />
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ear_rings"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/ear_ring"/>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/engegmentrings"
+            android:id="@+id/engegmentring"
+            android:layout_marginLeft="10dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/secound_row_categery"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:id="@+id/layout_3"
+
+        >
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/nosering"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/nose_ring"/>
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:id="@+id/maintain_products"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Maintain Products"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:layout_above="@+id/check_orders_btn"
+        android:layout_marginBottom="5dp"/>
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="42dp"
+    android:id="@+id/check_orders_btn"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:background="@color/colorPrimaryDark"
+    android:text="Check New Orders"
+    android:textColor="@android:color/white"
+    android:textSize="20dp"
+    android:textAllCaps="false"
+    android:layout_above="@+id/admin_logout_btn"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:id="@+id/admin_logout_btn"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="LogOut"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:textAllCaps="false" />
+
+</RelativeLayout>
